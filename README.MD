@@ -25,19 +25,14 @@ Use object 'asoSlider' to control. You can change it in slider.js:
 To config slider on page:
 <pre>
 <script>  
-   asoSlider.images = [ <?php
-   items = ['img/slider_1.jpg', 'img/slider_2.jpg', 'img/slider_3.jpg', 'img/slider_4.jpg'];
-   foreach (items as item) { 
-       echo "'".item."',"; 
-       } ?> 
-    ]; // add images to the slider from php
+   asoSlider.images = ['slide_1.jpg', 'slide_2.jpg']; // add images to the slider
 </script>
 </pre>
-Make your own animation: 
+Make your own animation:<br>
 Use slider.css to add your own ccs3 animation, like '.fade' on demo, then add animation to control.
 You can use animate.css to add effects. (https://daneden.github.io/animate.css/)
 <pre>
 <script>
-   asoSlider.animation = 'fade'; // Or slideup, slideright anything you add to css.
+   asoSlider.animation = 'fade'; // Or slideUp, slideRight anything you add to css.
 </script>
 </pre>
