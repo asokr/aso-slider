@@ -1,6 +1,7 @@
 #Native JavaScript Easy Aso Slider
 <p>How TO USE</p>
-<p>Add to the page div with slider id: &lt;div id=“aso-slider”&gt;&lt;/div&gt;</p>
+<p>Add to the page div with slider id:
+  <pre>&lt;div id=“aso-slider”&gt;&lt;/div&gt;</p></pre>
 <p>Use object ‘asoSlider’ to control. You can change it in slider.js:<br>
   <pre>
 &lt;script&gt;<br>
